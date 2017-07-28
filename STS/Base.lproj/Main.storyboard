@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,18 +18,18 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sts_logo_original" translatesAutoresizingMaskIntoConstraints="NO" id="NyG-L7-3Pe" userLabel="Logo Image View / Portrait &amp; Landscape">
-                                <rect key="frame" x="0.0" y="20" width="95" height="647"/>
+                                <rect key="frame" x="0.0" y="64" width="147" height="311"/>
                                 <color key="backgroundColor" red="0.39673914249999997" green="0.76142314089999996" blue="0.9919000268" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="dA1-YX-OBe" userLabel="Top Stack View">
-                                <rect key="frame" x="97" y="20" width="278" height="293"/>
+                                <rect key="frame" x="149" y="64" width="417" height="147"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyh-uV-Ch8" userLabel="Login Button / Portrait">
-                                        <rect key="frame" x="0.0" y="0.0" width="138" height="293"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="207.5" height="147"/>
                                         <color key="backgroundColor" red="0.99942404029999998" green="0.91960832579999996" blue="0.14047787640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="139" id="XZ2-sC-eHg"/>
@@ -50,7 +50,7 @@
                                         </variation>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyB-iR-cIU" userLabel="Sign-Up Button / Portrait">
-                                        <rect key="frame" x="140" y="0.0" width="138" height="293"/>
+                                        <rect key="frame" x="209.5" y="0.0" width="207.5" height="147"/>
                                         <color key="backgroundColor" red="0.1389896145" green="0.42122395829999998" blue="0.24501859770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" backgroundImage="director"/>
                                     </button>
@@ -85,9 +85,11 @@
                                 </variation>
                             </stackView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="LHn-zs-xyj">
-                                <rect key="frame" x="0.0" y="20" width="375" height="35"/>
+                                <rect key="frame" x="0.0" y="20" width="667" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="Dho-Ao-eel"/>
+                                    <constraint firstAttribute="height" constant="35" id="Dho-Ao-eel">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="44"/>
+                                    </constraint>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="default">
@@ -102,7 +104,7 @@
                                 </variation>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5o6-Xo-bh5" userLabel="Register Button / Portrait &amp; Landscape">
-                                <rect key="frame" x="97" y="315" width="278" height="352"/>
+                                <rect key="frame" x="149" y="213" width="315" height="162"/>
                                 <color key="backgroundColor" red="0.9919000268" green="0.31906167949999997" blue="0.25869902950000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="315" id="GjZ-tL-XPf"/>
@@ -224,14 +226,14 @@
                                 <color key="backgroundColor" red="0.8471679688" green="0.42122395829999998" blue="0.24705882370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="PdU-hg-JiZ" userLabel="Bottom Right Stack View">
-                                <rect key="frame" x="466" y="204" width="201" height="171"/>
+                                <rect key="frame" x="466" y="213" width="201" height="162"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="motorcycle" translatesAutoresizingMaskIntoConstraints="NO" id="zqk-g0-JRP">
-                                        <rect key="frame" x="0.0" y="0.0" width="99.5" height="171"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="99.5" height="162"/>
                                         <color key="backgroundColor" red="0.99942404029999998" green="0.91960832579999996" blue="0.14047787640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="benzo" translatesAutoresizingMaskIntoConstraints="NO" id="nyS-c6-n9G">
-                                        <rect key="frame" x="101.5" y="0.0" width="99.5" height="171"/>
+                                        <rect key="frame" x="101.5" y="0.0" width="99.5" height="162"/>
                                         <color key="backgroundColor" red="1" green="0.041821868819999997" blue="0.051608800929999997" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                 </subviews>
@@ -243,7 +245,7 @@
                                 </variation>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="king_alphonso" translatesAutoresizingMaskIntoConstraints="NO" id="ghw-fJ-c8C">
-                                <rect key="frame" x="568" y="55" width="99" height="147"/>
+                                <rect key="frame" x="568" y="64" width="99" height="147"/>
                                 <color key="backgroundColor" red="0.1389896145" green="0.42122395829999998" blue="0.24501859770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
@@ -270,6 +272,7 @@
                             <constraint firstAttribute="trailing" secondItem="ehN-zb-eYf" secondAttribute="trailing" id="D0H-wd-13N"/>
                             <constraint firstAttribute="trailing" secondItem="mUG-Mn-5Uq" secondAttribute="trailing" id="DuZ-cu-Bd1"/>
                             <constraint firstAttribute="trailing" secondItem="ghw-fJ-c8C" secondAttribute="trailing" id="GAR-gV-Wco"/>
+                            <constraint firstItem="NyG-L7-3Pe" firstAttribute="top" secondItem="LHn-zs-xyj" secondAttribute="bottom" id="Gdz-Cr-J4a"/>
                             <constraint firstItem="9TQ-ui-XS0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Gfn-sw-5uR"/>
                             <constraint firstAttribute="bottom" secondItem="LHn-zs-xyj" secondAttribute="bottom" constant="315" id="Gwf-vq-qvh"/>
                             <constraint firstAttribute="trailing" secondItem="NyG-L7-3Pe" secondAttribute="trailing" constant="555" id="HCE-fx-EXx"/>
@@ -333,6 +336,17 @@
                                 <exclude reference="ghw-fJ-c8C"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="Gfn-sw-5uR"/>
+                                <exclude reference="t4e-1g-WFu"/>
+                                <exclude reference="8gR-kk-utY"/>
+                                <exclude reference="Jb9-jy-vTJ"/>
+                                <exclude reference="9Qh-DZ-37L"/>
+                                <exclude reference="D0H-wd-13N"/>
+                                <exclude reference="Hps-1s-88T"/>
+                                <exclude reference="qN3-IF-Fua"/>
+                                <exclude reference="Bcb-oO-LC6"/>
+                                <exclude reference="ctQ-dV-wJ0"/>
+                                <exclude reference="kFx-mG-tja"/>
                                 <exclude reference="0PO-iw-Bf1"/>
                                 <exclude reference="89U-K4-dcb"/>
                                 <exclude reference="Gwf-vq-qvh"/>
@@ -341,30 +355,10 @@
                                 <exclude reference="SNJ-Or-6IA"/>
                                 <exclude reference="bgU-L6-LvD"/>
                                 <exclude reference="r22-it-fWf"/>
-                                <exclude reference="Gfn-sw-5uR"/>
-                                <exclude reference="t4e-1g-WFu"/>
-                                <exclude reference="8gR-kk-utY"/>
-                                <exclude reference="Jb9-jy-vTJ"/>
-                                <exclude reference="7wB-PI-bTy"/>
-                                <exclude reference="LLe-xp-z8y"/>
-                                <exclude reference="NZE-rg-ICk"/>
-                                <exclude reference="UeF-Qy-sgG"/>
-                                <exclude reference="GAR-gV-Wco"/>
-                                <exclude reference="KkD-Eg-jN2"/>
-                                <exclude reference="bsF-Vc-wvE"/>
-                                <exclude reference="9Qh-DZ-37L"/>
-                                <exclude reference="D0H-wd-13N"/>
-                                <exclude reference="Hps-1s-88T"/>
-                                <exclude reference="qN3-IF-Fua"/>
-                                <exclude reference="Bcb-oO-LC6"/>
-                                <exclude reference="ctQ-dV-wJ0"/>
-                                <exclude reference="kFx-mG-tja"/>
-                                <exclude reference="9hf-pY-eD5"/>
-                                <exclude reference="DuZ-cu-Bd1"/>
-                                <exclude reference="o60-Bh-CXr"/>
                                 <exclude reference="4Wa-5K-kVZ"/>
                                 <exclude reference="5l8-qh-84c"/>
                                 <exclude reference="8pw-Jd-q8I"/>
+                                <exclude reference="Gdz-Cr-J4a"/>
                                 <exclude reference="HCE-fx-EXx"/>
                                 <exclude reference="KkV-il-EhA"/>
                                 <exclude reference="L8u-1b-40U"/>
@@ -399,6 +393,16 @@
                                 <exclude reference="ak5-Cj-aOi"/>
                                 <exclude reference="dav-SY-ga8"/>
                                 <exclude reference="jK9-Wy-7hE"/>
+                                <exclude reference="9hf-pY-eD5"/>
+                                <exclude reference="DuZ-cu-Bd1"/>
+                                <exclude reference="o60-Bh-CXr"/>
+                                <exclude reference="7wB-PI-bTy"/>
+                                <exclude reference="LLe-xp-z8y"/>
+                                <exclude reference="NZE-rg-ICk"/>
+                                <exclude reference="UeF-Qy-sgG"/>
+                                <exclude reference="GAR-gV-Wco"/>
+                                <exclude reference="KkD-Eg-jN2"/>
+                                <exclude reference="bsF-Vc-wvE"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=compact">
@@ -419,14 +423,8 @@
                                 <exclude reference="SNJ-Or-6IA"/>
                                 <include reference="bgU-L6-LvD"/>
                                 <include reference="r22-it-fWf"/>
-                                <include reference="7wB-PI-bTy"/>
-                                <include reference="LLe-xp-z8y"/>
-                                <include reference="NZE-rg-ICk"/>
-                                <include reference="UeF-Qy-sgG"/>
-                                <include reference="GAR-gV-Wco"/>
-                                <include reference="KkD-Eg-jN2"/>
-                                <include reference="bsF-Vc-wvE"/>
                                 <include reference="8pw-Jd-q8I"/>
+                                <include reference="Gdz-Cr-J4a"/>
                                 <include reference="KkV-il-EhA"/>
                                 <include reference="NJ4-CO-06t"/>
                                 <include reference="nvK-ua-A5Q"/>
@@ -441,6 +439,13 @@
                                 <include reference="osc-g7-Ubm"/>
                                 <include reference="ydZ-0z-x9V"/>
                                 <include reference="JRn-mO-cZf"/>
+                                <include reference="7wB-PI-bTy"/>
+                                <include reference="LLe-xp-z8y"/>
+                                <include reference="NZE-rg-ICk"/>
+                                <include reference="UeF-Qy-sgG"/>
+                                <include reference="GAR-gV-Wco"/>
+                                <include reference="KkD-Eg-jN2"/>
+                                <include reference="bsF-Vc-wvE"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=regular">
@@ -466,9 +471,6 @@
                                 <include reference="Bcb-oO-LC6"/>
                                 <include reference="ctQ-dV-wJ0"/>
                                 <include reference="kFx-mG-tja"/>
-                                <include reference="9hf-pY-eD5"/>
-                                <include reference="DuZ-cu-Bd1"/>
-                                <include reference="o60-Bh-CXr"/>
                                 <include reference="5l8-qh-84c"/>
                                 <include reference="HCE-fx-EXx"/>
                                 <include reference="adg-6e-qQc"/>
@@ -480,6 +482,9 @@
                                 <include reference="L3l-pq-ovM"/>
                                 <include reference="TAO-LX-bqn"/>
                                 <include reference="ak5-Cj-aOi"/>
+                                <include reference="9hf-pY-eD5"/>
+                                <include reference="DuZ-cu-Bd1"/>
+                                <include reference="o60-Bh-CXr"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
