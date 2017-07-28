@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="landscape">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,18 +18,18 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sts_logo_original" translatesAutoresizingMaskIntoConstraints="NO" id="NyG-L7-3Pe" userLabel="Logo Image View / Portrait &amp; Landscape">
-                                <rect key="frame" x="0.0" y="64" width="147" height="311"/>
+                                <rect key="frame" x="0.0" y="64" width="40" height="504"/>
                                 <color key="backgroundColor" red="0.39673914249999997" green="0.76142314089999996" blue="0.9919000268" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="dA1-YX-OBe" userLabel="Top Stack View">
-                                <rect key="frame" x="149" y="64" width="417" height="147"/>
+                                <rect key="frame" x="42" y="64" width="278" height="277"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyh-uV-Ch8" userLabel="Login Button / Portrait">
-                                        <rect key="frame" x="0.0" y="0.0" width="207.5" height="147"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="138" height="277"/>
                                         <color key="backgroundColor" red="0.99942404029999998" green="0.91960832579999996" blue="0.14047787640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="139" id="XZ2-sC-eHg"/>
@@ -50,7 +50,7 @@
                                         </variation>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyB-iR-cIU" userLabel="Sign-Up Button / Portrait">
-                                        <rect key="frame" x="209.5" y="0.0" width="207.5" height="147"/>
+                                        <rect key="frame" x="140" y="0.0" width="138" height="277"/>
                                         <color key="backgroundColor" red="0.1389896145" green="0.42122395829999998" blue="0.24501859770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" backgroundImage="director"/>
                                     </button>
@@ -60,7 +60,7 @@
                                         <variation key="heightClass=compact-widthClass=compact" constant="147"/>
                                     </constraint>
                                     <constraint firstAttribute="width" constant="400" id="qPy-Tm-e4E">
-                                        <variation key="heightClass=compact-widthClass=compact" constant="417"/>
+                                        <variation key="heightClass=compact-widthClass=compact" constant="392"/>
                                     </constraint>
                                 </constraints>
                                 <variation key="default">
@@ -85,7 +85,7 @@
                                 </variation>
                             </stackView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="LHn-zs-xyj">
-                                <rect key="frame" x="0.0" y="20" width="667" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="568" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Dho-Ao-eel">
                                         <variation key="heightClass=compact-widthClass=compact" constant="44"/>
@@ -104,10 +104,10 @@
                                 </variation>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5o6-Xo-bh5" userLabel="Register Button / Portrait &amp; Landscape">
-                                <rect key="frame" x="149" y="213" width="315" height="162"/>
+                                <rect key="frame" x="42" y="343" width="278" height="225"/>
                                 <color key="backgroundColor" red="0.9919000268" green="0.31906167949999997" blue="0.25869902950000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="315" id="GjZ-tL-XPf"/>
+                                    <constraint firstAttribute="width" constant="266" id="GjZ-tL-XPf"/>
                                     <constraint firstAttribute="height" constant="404" id="dfQ-Nl-kLe">
                                         <variation key="heightClass=regular-widthClass=compact" constant="360"/>
                                     </constraint>
@@ -142,7 +142,7 @@
                                 </variation>
                             </button>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="HhE-So-kZz">
-                                <rect key="frame" x="0.0" y="20" width="667" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="motorcycle" translatesAutoresizingMaskIntoConstraints="NO" id="ehN-zb-eYf" userLabel="Bottom Middle Image View">
@@ -167,10 +167,10 @@
                                 </variation>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="De8-3z-zoQ" userLabel="Top Stack View">
-                                <rect key="frame" x="183" y="64" width="274" height="60"/>
+                                <rect key="frame" x="183" y="64" width="553" height="151"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TQ-ui-XS0" userLabel="Sign-In Button / Landscape">
-                                        <rect key="frame" x="0.0" y="0.0" width="90" height="60"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TQ-ui-XS0" userLabel="Sign-In Button / Landscape">
+                                        <rect key="frame" x="0.0" y="0.0" width="203" height="151"/>
                                         <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="203" id="ikv-rz-zCL"/>
@@ -187,8 +187,8 @@
                                             </mask>
                                         </variation>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17E-2N-jbF" userLabel="Login Button / Landscape">
-                                        <rect key="frame" x="92" y="0.0" width="90" height="60"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17E-2N-jbF" userLabel="Login Button / Landscape">
+                                        <rect key="frame" x="205" y="0.0" width="203" height="151"/>
                                         <color key="backgroundColor" red="0.1389896145" green="0.42122395829999998" blue="0.24501859770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="203" id="Kvx-Xu-lZt"/>
@@ -208,8 +208,8 @@
                                             </mask>
                                         </variation>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="king_alphonso" translatesAutoresizingMaskIntoConstraints="NO" id="NNS-BD-hEi" userLabel="Top Right Image View">
-                                        <rect key="frame" x="184" y="0.0" width="90" height="60"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="king_alphonso" translatesAutoresizingMaskIntoConstraints="NO" id="NNS-BD-hEi" userLabel="Top Right Image View">
+                                        <rect key="frame" x="410" y="0.0" width="143" height="151"/>
                                         <color key="backgroundColor" red="0.68841575460000004" green="1" blue="0.63596117259999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="195" id="mJT-6a-VmL"/>
@@ -248,7 +248,7 @@
                                 </variation>
                             </imageView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="iwa-ji-4c8">
-                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="568" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="skd-NS-fOm"/>
                                 </constraints>
@@ -265,14 +265,14 @@
                                 </variation>
                             </searchBar>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="PdU-hg-JiZ" userLabel="Bottom Right Stack View">
-                                <rect key="frame" x="466" y="213" width="201" height="162"/>
+                                <rect key="frame" x="318" y="213" width="250" height="107"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="motorcycle" translatesAutoresizingMaskIntoConstraints="NO" id="zqk-g0-JRP">
-                                        <rect key="frame" x="0.0" y="0.0" width="99.5" height="162"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="124" height="107"/>
                                         <color key="backgroundColor" red="0.99942404029999998" green="0.91960832579999996" blue="0.14047787640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="benzo" translatesAutoresizingMaskIntoConstraints="NO" id="nyS-c6-n9G">
-                                        <rect key="frame" x="101.5" y="0.0" width="99.5" height="162"/>
+                                        <rect key="frame" x="126" y="0.0" width="124" height="107"/>
                                         <color key="backgroundColor" red="1" green="0.041821868819999997" blue="0.051608800929999997" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                 </subviews>
@@ -284,7 +284,7 @@
                                 </variation>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="king_alphonso" translatesAutoresizingMaskIntoConstraints="NO" id="ghw-fJ-c8C">
-                                <rect key="frame" x="568" y="64" width="99" height="147"/>
+                                <rect key="frame" x="444" y="64" width="124" height="147"/>
                                 <color key="backgroundColor" red="0.1389896145" green="0.42122395829999998" blue="0.24501859770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
